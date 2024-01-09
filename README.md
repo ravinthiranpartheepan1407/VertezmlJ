@@ -16,4 +16,7 @@ Avaiable Functions:
 -  Median
 -  Eculidean Distance
 -  Anova
+-  Chebyshev Distance
+-  Correlation
+-  Entropy
 -  In Progress...
