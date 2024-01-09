@@ -13,16 +13,16 @@ public class MedianOp {
             if(minVal < values[elements]){
                 resVal.add(values[elements]);
             } else{
-                resVal.add(min);
+                resVal.add(minVal);
             }
         }
         if(resVal.size() % 2 != 0){
             int index = (resVal.size() / 2);
-            outVal = (double)resVal[index];
+            outVal = resVal.get(index);
         } else{
-            int index = (int) (resVal.size() / 2);
-            int firstIndex = (int) res[index - 1];
-            int secondIndex = (int) res[index];
+            int index = (resVal.size() / 2);
+            double firstIndex = resVal.get(index-1);
+            double secondIndex = resVal.get(index);
             outVal = (double) (firstIndex + secondIndex) / 2;
         }
         return outVal;
