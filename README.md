@@ -13,4 +13,7 @@ Sponsor my project here: [![Sponsor](https://img.shields.io/badge/Sponsor-Donate
 
 Avaiable Functions:
 -  Mean
+-  Median
+-  Eculidean Distance
+-  Anova
 -  In Progress...
