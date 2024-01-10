@@ -32,5 +32,16 @@ public class Main {
         System.out.println("Correlation: " + corrOut);
         double entropyOut = EntropyOp.Entropy(entX,entY);
         System.out.println("Entropy: " + entropyOut);
+        double giniSplit = GiniOp.Gini(x,y);
+        System.out.println("Gini Split: " + giniSplit);
+        double maeRes = MaeOp.Mae(x1,y1);
+        System.out.println("MAE: " + maeRes);
+        double mapeRes = MapeOp.Mape(x1,y1);
+        System.out.println("MAPE: " + mapeRes);
+        KnnOp.IMetrics knnRes = KnnOp.Knn(x1, y1, 3, 15.73,3.76);
+        System.out.println("KNN X: " + knnRes.x + " " + "KNN Y: " + knnRes.y);
+        System.out.println("KNN Distance: " + knnRes.distance);
+        System.out.println("KNN: " + knnRes.knn);
+//        System.out.println("First Element: " + x1.getFirst());
     }
 }
