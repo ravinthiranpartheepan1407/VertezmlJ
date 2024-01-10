@@ -19,4 +19,8 @@ Avaiable Functions:
 -  Chebyshev Distance
 -  Correlation
 -  Entropy
+-  Gini Index
+-  Mean Absolute Error
+-  Mean Absolute Percentage Error
+-  KNN
 -  In Progress...
