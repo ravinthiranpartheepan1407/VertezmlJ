@@ -43,5 +43,7 @@ public class Main {
         System.out.println("KNN Distance: " + knnRes.distance);
         System.out.println("KNN: " + knnRes.knn);
 //        System.out.println("First Element: " + x1.getFirst());
+        double linearegRes = LinearegOp.LinearegOLS(x1, y1, 100.7);
+        System.out.println("Linear Regression: " + linearegRes);
     }
 }

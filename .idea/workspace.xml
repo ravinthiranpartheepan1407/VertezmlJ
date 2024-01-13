@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa23bc58-dec5-46c2-98a6-2842bb81bd9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vertezml/GiniOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vertezml/KnnOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vertezml/MaeOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vertezml/MapeOp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vertezml/LinearegOp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/vertezml/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vertezml/Main.java" afterDir="false" />
@@ -75,6 +72,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-e1d2075fd9a7-b4911678" />
         <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
       </set>
     </attachedChunks>
@@ -95,7 +93,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/vertezml/Main.java</url>
-          <line>45</line>
+          <line>47</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
