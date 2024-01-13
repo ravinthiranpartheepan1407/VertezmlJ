@@ -23,4 +23,5 @@ Avaiable Functions:
 -  Mean Absolute Error
 -  Mean Absolute Percentage Error
 -  KNN
+-  Linear Regression (OLS)
 -  In Progress...
